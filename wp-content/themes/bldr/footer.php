@@ -153,7 +153,7 @@
 					<?php else : ?>  
     					<?php printf( __( 'Desenvolvido por', 'bldr' ), 'bldr', '<a href="http://acens.com.br"><img src="http://www.admsolucoes.com.br/wp-content/uploads/2015/03/acens-105x36.png"></a>' ); ?>
 					    <div class= "logofooter">
-                            <img src="http://www.admsolucoes.com.br/wp-content/uploads/2015/03/acens-105x36.png">
+                            <img src="http://localhost/ejudi/wp-content/uploads/2015/08/acensbranco-footer.png">
                         </div>
                     <?php endif; ?>
 

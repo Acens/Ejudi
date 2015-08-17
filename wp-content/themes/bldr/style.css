@@ -921,12 +921,13 @@ h1.site-title a { color:#efefef; }
 }
 
 .site-header-home {
-	position: absolute;
+	/*position: absolute;*/
 	top: 0;
 	height: 5.5rem;
 	width: 100%;
 	z-index: 9;
 	padding-bottom: 15px;
+	border-bottom: 2px solid #ccc;
 } 
 
 #page-entry-content, #blog-entry-content, #page-right-entry-content {
@@ -1177,13 +1178,13 @@ h1.site-title a { color:#efefef; }
 }
 
 .social-bar {
-	background: #fff;
-	border-top: 1px solid #dadada;
-	border-bottom: 1px solid #dadada;
+	background: #2D61A4;
+	border-top: 2px solid #dadada;
+	border-bottom: 2px solid #dadada;
 	padding: 20px 0 40px;
 	text-align: center;
 	font-size: 20px;
-	color: #888;	
+	color: #000;	
 }
 .social-bar span {
   float: left;
@@ -1193,9 +1194,9 @@ h1.site-title a { color:#efefef; }
   width: 48%;
 } 
 .social-bar .fa {
-  color: #888888;
-  font-size: 22px !important;
-  padding: 10px 7px 0;
+  color: #fff;
+  font-size: 40px !important;
+  padding: 10px 27px 0;
 }   
 .social-media-icons {
   float: left;
@@ -1205,7 +1206,7 @@ h1.site-title a { color:#efefef; }
   width: 100%;
 }   
 .social-media-icons li {
-  color: #888888; 
+  color: #fff; 
   display: inline-block;
   float: none;     
   list-style: none outside none;
