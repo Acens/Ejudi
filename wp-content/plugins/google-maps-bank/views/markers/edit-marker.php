@@ -294,7 +294,7 @@ else
 			jQuery(document).ready(function()
 			{
 				initialize();
-				jQuery(".hovertip").tooltip({placement: "right"});
+				jQuery(".hovertip").tooltip_tip({placement: "right"});
 				marker_change_catgory();
 				jQuery("#manage_map").addClass("nav-tab-active");
 				<?php 

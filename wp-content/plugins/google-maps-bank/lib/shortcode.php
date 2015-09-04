@@ -199,7 +199,7 @@ else
 		<script type="text/javascript">
 			jQuery(document).ready(function()
 			{
-				jQuery(".hovertip").tooltip({placement: "right"});
+				jQuery(".hovertip").tooltip_tip({placement: "right"});
 				show_border_settings();
 			});
 			function Insert_map_Form()

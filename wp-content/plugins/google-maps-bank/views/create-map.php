@@ -268,7 +268,7 @@ else
 			
 			jQuery(document).ready(function()
 			{
-				jQuery(".hovertip").tooltip({placement: "right"});
+				jQuery(".hovertip").tooltip_tip({placement: "right"});
 				jQuery("#step_1").addClass("current");
 				<?php 
 				if(isset($_REQUEST["map_themes"]))

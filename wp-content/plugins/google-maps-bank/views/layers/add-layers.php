@@ -312,7 +312,7 @@ else
 			var layer;
 			jQuery(document).ready(function()
 			{
-				jQuery(".hovertip").tooltip({placement: "right"});
+				jQuery(".hovertip").tooltip_tip({placement: "right"});
 				show_kml_link();
 				chk_fusion_table_layer();
 				engine_layer_impliment();

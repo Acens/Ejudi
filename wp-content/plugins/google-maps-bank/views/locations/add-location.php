@@ -133,7 +133,7 @@ else
 			
 			jQuery(document).ready(function()
 			{
-				jQuery(".hovertip").tooltip({placement: "right"});
+				jQuery(".hovertip").tooltip_tip({placement: "right"});
 				jQuery("#step_2").addClass("current");
 				initialize();
 				jQuery(".dataTables_length").attr("style","float:right");

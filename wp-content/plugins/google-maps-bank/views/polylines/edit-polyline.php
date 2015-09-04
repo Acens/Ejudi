@@ -257,7 +257,7 @@ else
 				jQuery("#step_4").addClass("current");
 				jQuery("#step_5").addClass("current");
 				jQuery("#manage_map").addClass("nav-tab-active");
-				jQuery(".hovertip").tooltip({placement: "right"});
+				jQuery(".hovertip").tooltip_tip({placement: "right"});
 			});
 			
 			jQuery("#frm_edit_polyline").validate

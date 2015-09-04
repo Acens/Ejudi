@@ -2636,7 +2636,7 @@ else
 		</span>
 	</div>
 	<script type="text/javascript">
-		jQuery(".hovertip").tooltip({placement: "bottom"});
+		jQuery(".hovertip").tooltip_tip({placement: "bottom"});
 	</script>
 	<?php 
 	}

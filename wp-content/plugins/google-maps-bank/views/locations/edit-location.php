@@ -125,7 +125,7 @@ else
 				initialize();
 				jQuery(".dataTables_length").attr("style","float:right");
 				jQuery("#manage_map").addClass("nav-tab-active");
-				jQuery(".hovertip").tooltip({placement: "right"});
+				jQuery(".hovertip").tooltip_tip({placement: "right"});
 			});
 			
 			jQuery("#frm_edit_location").validate
