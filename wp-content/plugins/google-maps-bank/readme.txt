@@ -3,7 +3,11 @@ Contributors: contact-banker, Gallery-Bank
 Tags: admin, plugin, best google maps, best maps, comments, custom google map, google map widget, gmaps, google map plugin, custom google maps, Custom Google Map, Custom Google Maps, google map, google maps, maps, map, map markers, wp maps, wp google maps, wp google map, easy map, store locator, map plugin, directions, map directions, google map plugin, routes, polygons, polylines, streetview, location, marker, latitude, longitude, map widget
 Requires at least: 3.4
 Tested up to: 4.3
+<<<<<<< HEAD
 Stable tag: 1.0.36
+=======
+Stable tag: 1.0.35
+>>>>>>> 2b3929a3b90b5342ff23c801673bbe28c7e3980e
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -229,10 +233,13 @@ If any problem occurs, please contact us at [support@tech-banker.com](mailto:sup
 
 == Changelog ==
 
+<<<<<<< HEAD
 = 1.0.36 =
 
 * Few Urgent Bugs Fixed
 
+=======
+>>>>>>> 2b3929a3b90b5342ff23c801673bbe28c7e3980e
 = 1.0.35 =
 
 * Few Urgent Bugs Fixed
