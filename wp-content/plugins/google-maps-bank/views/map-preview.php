@@ -1240,8 +1240,6 @@ else
 						jQuery("#ux_txt_latitude").val(event.latLng.lat());
 						jQuery("#ux_txt_longitude").val(event.latLng.lng());
 					});	
-					jQuery("#ux_txt_latitude").val(event.latLng.lat());
-					jQuery("#ux_txt_longitude").val(event.latLng.lng());
 				}
 				else if(marker_count != 0 && jQuery("#geocomplete_marker").val() != "")
 				{

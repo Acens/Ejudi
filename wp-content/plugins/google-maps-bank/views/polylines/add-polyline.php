@@ -315,7 +315,7 @@ else
 				jQuery("#step_3").addClass("current");
 				jQuery("#step_4").addClass("current");
 				jQuery("#step_5").addClass("current");
-				jQuery(".hovertip").tooltip({placement: "right"});
+				jQuery(".hovertip").tooltip_tip({placement: "right"});
 				jQuery("#gmb_create_new_map").addClass("nav-tab-active");
 			});
 			

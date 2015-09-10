@@ -4,7 +4,7 @@ class MapWidget extends WP_Widget
 	function MapWidget()
 	{
 		$widget_ops = array("classname" => "MapWidget", "description" => "Display Google Map");
-		$this->WP_Widget("MapWidget", "Google Maps Bank", $widget_ops);
+		$this->__construct("MapWidget", "Google Maps Bank", $widget_ops);
 	}
 	function form($instance)
 	{

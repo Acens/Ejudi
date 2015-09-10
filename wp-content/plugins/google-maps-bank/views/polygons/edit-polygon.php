@@ -253,7 +253,7 @@ else
 				jQuery("#step_2").addClass("current");
 				jQuery("#step_3").addClass("current");
 				jQuery("#step_4").addClass("current");
-				jQuery(".hovertip").tooltip({placement: "right"});
+				jQuery(".hovertip").tooltip_tip({placement: "right"});
 			});
 			
 			jQuery("#frm_edit_polygon").validate

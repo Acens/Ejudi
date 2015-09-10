@@ -360,7 +360,7 @@ else
 			
 			jQuery(document).ready(function()
 			{
-				jQuery(".hovertip").tooltip({placement: "right"});
+				jQuery(".hovertip").tooltip_tip({placement: "right"});
 				jQuery("#step_2").addClass("current");
 				jQuery("#step_3").addClass("current");
 				jQuery("#show_map_icons").css("display","block");
@@ -417,6 +417,7 @@ else
 					var marker_name = encodeURIComponent(jQuery("#ux_txt_marker_name").val());
 					jQuery.post(ajaxurl, jQuery("#frm_add_marker").serialize() +"&map_id="+map_id+"&marker_name="+marker_name+"&param=add_marker_db&action=add_map_library&_wpnonce=<?php echo $add_new_marker;?>", function()
 					{
+						
 						jQuery(".loader_opacity").remove();
 						jQuery(".opacity_overlay").remove();
 						window.location.href = "admin.php?page=gmb_add_marker&map_id="+map_id;
@@ -494,7 +495,7 @@ else
 			function proceed_to_back()
 			{
 				overlay();
-				setTimeout(function () {
+				setTimeout(function (){
 					jQuery(".loader_opacity").remove();
 					jQuery(".opacity_overlay").remove();
 					window.location.href = "admin.php?page=gmb_add_location&map_id=<?php echo $map_id;?>";

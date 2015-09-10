@@ -468,7 +468,7 @@ else
 				direction_display();
 				street_Overlay();
 				initialize();
-				jQuery(".hovertip").tooltip({placement: "right"});
+				jQuery(".hovertip").tooltip_tip({placement: "right"});
 				jQuery("#manage_map").addClass("nav-tab-active");
 				jQuery("#ux_ddl_max_zoom_level").val("<?php echo isset($map_max_zoom_level_update) ? $map_max_zoom_level_update : "1";?>");
 				jQuery("#ux_ddl_travel_mode").val("<?php echo isset($map_travel_mode_update) ? $map_travel_mode_update : "DRIVING";?>");

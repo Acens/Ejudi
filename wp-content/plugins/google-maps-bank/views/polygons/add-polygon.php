@@ -308,7 +308,7 @@ else
 				jQuery("#step_2").addClass("current");
 				jQuery("#step_3").addClass("current");
 				jQuery("#step_4").addClass("current");
-				jQuery(".hovertip").tooltip({placement: "right"});
+				jQuery(".hovertip").tooltip_tip({placement: "right"});
 				jQuery(".dataTables_length").css("display","none");
 				jQuery(".datatable-header").css("float","right");
 				jQuery(".datatable-header").css("margin-bottom","8px");
