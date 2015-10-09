@@ -91,7 +91,7 @@ if ($controls->is_action('test') || $controls->is_action('save') || $controls->i
 
         // Not set one of the preferences specified
         $operator = $controls->data['preferences_status_operator'] == 0 ? ' or ' : ' and ';
-        if ($controls->data['preferences_status_operator'] == 1) {
+        if ($controls->data['preferences_status'] == 1) {
             $query .= " and (";
             foreach ($preferences as $x) {
                 $query .= "list_" . $x . "=0" . $operator;

@@ -923,11 +923,11 @@ h1.site-title a { color:#efefef; }
 .site-header-home {
 	/*position: absolute;*/
 	top: 0;
-	height: 5.5rem;
+	height: 6.5rem;
 	width: 100%;
 	z-index: 9;
 	padding-bottom: 15px;
-	border-bottom: 2px solid #ccc;
+	border-bottom: 2px solid #A89671;
 } 
 
 #page-entry-content, #blog-entry-content, #page-right-entry-content {

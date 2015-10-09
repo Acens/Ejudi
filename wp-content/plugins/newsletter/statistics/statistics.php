@@ -25,11 +25,19 @@ class NewsletterStatistics extends NewsletterModule {
     }
 
     function hook_wp_loaded() {
+        global $wpdb;
+        
         if (isset($_GET['nltr'])) {
             $_GET['r'] = $_GET['nltr'];
             include dirname(__FILE__) . '/link.php';
             die();
         }
+        
+        if (isset($_GET['noti'])) {
+            $_GET['r'] = $_GET['noti'];
+            include dirname(__FILE__) . '/open.php';
+            die();
+        }        
     }
 
     function upgrade() {
@@ -111,16 +119,16 @@ class NewsletterStatistics extends NewsletterModule {
 
         // This is the link text which is added to the tracking data
         $anchor = '';
-        if ($this->options['anchor'] == 1) {
-            $anchor = trim(str_replace(';', ' ', $matches[4]));
-            // Keep images but not other tags
-            $anchor = strip_tags($anchor, '<img>');
-
-            // Truncate if needed to avoid to much long URLs
-            if (stripos($anchor, '<img') === false && strlen($anchor) > 100) {
-                $anchor = substr($anchor, 0, 100);
-            }
-        }
+//        if ($this->options['anchor'] == 1) {
+//            $anchor = trim(str_replace(';', ' ', $matches[4]));
+//            // Keep images but not other tags
+//            $anchor = strip_tags($anchor, '<img>');
+//
+//            // Truncate if needed to avoid to much long URLs
+//            if (stripos($anchor, '<img') === false && strlen($anchor) > 100) {
+//                $anchor = substr($anchor, 0, 100);
+//            }
+//        }
         $r = $this->relink_email_id . ';' . $this->relink_user_id . ';' . $href . ';' . $anchor;
         $r = $r . ';' . md5($r . $this->options['key']);
         $r = base64_encode($r);
